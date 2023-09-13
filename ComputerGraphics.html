@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            white-space: nowrap;
+        }
+
+        .black-area {
+            height: 25vh;
+            background-color: black;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: 72px;
+            white-space: nowrap;
+        }
+
+        div#Meshes{
+            position: absolute;
+            top: 255px;
+            left: 250px;
+            font-size: 40px;
+        }
+
+        div#MeshesContent {
+            position: absolute;
+            top: 320px;
+            left: 100px;
+            font-size: 20px;
+        }
+
+        div#HeightField {
+            position: absolute;
+            top: 255px;
+            left: 1030px;
+            font-size: 40px;
+        }
+
+        div#HeightFieldContent {
+            position: absolute;
+            top: 320px;
+            left: 990px;
+            font-size: 20px;
+        }
+
+        div#RollerCoasterSimulator {
+            position: absolute;
+            top: 1030px;
+            left: 250px;
+            font-size: 40px;
+        }
+
+        div#RollerCoasterSimulatorContent {
+            position: absolute;
+            top: 1095px;
+            left: 100px;
+            font-size: 20px;
+        }
+
+        div#RayCaster {
+            position: absolute;
+            top: 1030px;
+            left: 1250px;
+            font-size: 40px;
+        }
+
+        div#RayCasterContent {
+            position: absolute;
+            top: 1095px;
+            left: 1060px;
+            font-size: 20px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="black-area">
+        Computer Graphics Projects
+    </div>
+    <div id="Meshes">
+        3D Model Rendering
+        <a style="font-size: 20px;" href="C:/Users/markk/Downloads/PersonalWebsite/3DMeshes/3D_Graphics_Rendering_With_Scaling_Rotating_Translating.zip"
+           download="3D_Graphics_Rendering_With_Scaling_Rotating_Translating.zip">Download Link<br></a>
+    </div>
+    <div id="MeshesContent">
+        Implemented <strong>3D Graphics Pipeline</strong> to render 3D models, knowledge includes: <br />
+        <ul>
+            <li>World Space, View Space, Projection Space Transformations, Clipping</li>
+            <li>Scale, Translation and Rotation</li>
+            <li>Bresenham's Line Algorithm</li>
+        </ul>
+        Programmed the above concept from scratch based on the mathematical principles. <br />
+        No other OpenGL function calls except glBegin(GL_POINTS) <br />
+        Programming Languages: C++, OpenGL <br /> <br />
+        <div id="3DMeshes_img_container">
+            <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            <img style="width:300px;" src="C:/Users/markk/Downloads/PersonalWebsite/3DMeshes/Teapot.JPG">
+            <img style="width:300px; height:222px" src="C:/Users/markk/Downloads/PersonalWebsite/3DMeshes/Chair.JPG">
+            <br />
+            <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            <img style="width:300px; height:222px" src="C:/Users/markk/Downloads/PersonalWebsite/3DMeshes/TeapotBig.JPG">
+            <img style="width:300px; height:222px" src="C:/Users/markk/Downloads/PersonalWebsite/3DMeshes/ChairBack.JPG">
+        </div>
+    </div>
+    <div id="HeightField">
+        Height Field Construction by Grayscale Level
+        <a style="font-size: 20px;" href="C:/Users/markk/Downloads/PersonalWebsite/HeightField/Heightfield.zip"
+           download="Heightfield.zip">Download Link<br></a>
+    </div>
+    <div id="HeightFieldContent">
+        Given a 2D image, constructed a 3D height field. The height value for each pixel is its grayscale level.<br />
+        You can scale, translate and rotate the height field with different axes(X, Y, Z)<br />
+        You can also select the render mode(points, lines, triangles)<br />
+        Programming Languages: C++, OpenGL<br /><br />
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <img style="width:300px; height:222px" src="C:/Users/markk/Downloads/PersonalWebsite/HeightField/OhioPyle-256-HF.jpg">
+        <img style="width:300px; height:222px" src="C:/Users/markk/Downloads/PersonalWebsite/HeightField/SantaMonicaMountains-256-HF.jpg">
+        <br />
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <video controls style="width: 600px;">
+            <source src="C:/Users/markk/Downloads/PersonalWebsite/HeightField/ZongYingKuo_Assignment1Animation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="RollerCoasterSimulator">
+        Roller Coaster Simulator
+        <a style="font-size: 20px;" href="C:/Users/markk/Downloads/PersonalWebsite/RollerCoasterSimulator/RollerCoaster.zip"
+           download="RollerCoaster.zip">
+            Download Link<br>
+        </a>
+    </div>
+    <div id="RollerCoasterSimulatorContent">
+        Created a roller coaster track using <strong>Catmull-Rom Splines</strong><br />
+    Implemented a <strong>first-person view camera system</strong> to follow the roller coaster as if users are riding it<br />
+    The roller coaster speed follows the physics law<br />
+    Programming Languages: C++, OpenGL<br /><br />
+    <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+    <img style="width:500px; height:300px" src="C:/Users/markk/Downloads/PersonalWebsite/RollerCoasterSimulator/TrackImage.png">
+    <br />
+    <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+    <video controls style="width: 600px;">
+        <source src="C:/Users/markk/Downloads/PersonalWebsite/RollerCoasterSimulator/CoasterVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+    <div id="RayCaster">
+        Ray Caster 
+        <a style="font-size: 20px;" href="C:/Users/markk/Downloads/PersonalWebsite/RollerCoasterSimulator/RollerCoaster.zip"
+           download="RollerCoaster.zip">
+            Download Link<br>
+        </a>
+    </div>
+    <div id="RayCasterContent">
+        Implemented a ray caster to illuminate 3D objects and render shadows<br />
+        Shot light rays to the view plane and calculated color for each pixel<br />
+        Programming Languages: C++, OpenGL<br /><br />
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <img style="width:400px; height:300px" src="C:/Users/markk/Downloads/PersonalWebsite/RayCaster/sphere&tri.jpg">
+        <br />
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <img style="width:400px; height:300px" src="C:/Users/markk/Downloads/PersonalWebsite/RayCaster/table.jpg">
+        <br />
+    </div>
+</body>
+</html>
